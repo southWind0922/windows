@@ -1,0 +1,266 @@
+*{
+	border:0;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #fff;
+	color: #555;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    /*overflow-x:hidden;*/
+}
+
+td,
+th,
+caption {
+	font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+	font-size: 100%;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+a {
+	color: #555;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img,iframe{
+	border: none;
+}
+
+ol,
+ul,
+li {
+	list-style: none;
+}
+
+input,
+textarea,
+select,
+button {
+	font: 14px Verdana, Helvetica, Arial, sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+html{
+	overflow-x:hidden;
+	overflow-y: hidden;
+}
+body{
+	position: absolute;
+	top:0;bottom:0;left:0;right:0;
+}
+.qqcontainer{
+	width:280px;
+	height:550px;
+	box-shadow:0 0 5px #000000;
+}
+.head{
+	width:280px;
+	height:110px;
+	background-color:#169ADA ;
+}
+.search{
+	width:280px;
+	height:30px;
+	
+}
+.main{
+	width:280px;
+	height:410px;
+	background-color: #E8F5FC;
+}
+.header>img{
+	margin-left:10px;
+}
+.header{height:25px;}
+.header .headbutton{
+	float:right;
+	width:25px;
+	height:25px;
+}
+#headbuttonclose:hover{
+	background-color: #D44027;
+	transition: background-color 0.5s;
+}
+#headbuttonmin:hover{
+	background-color: #38A9E9;
+	transition: background-color 0.5s;
+}
+.headtool{height:85px;}
+.photo{
+	float:left;
+	height:60px;
+	width:60px;
+	margin:15px 5px 10px 10px;
+	background-image: url(../img/photo.png);
+	border-radius:5px ;
+}
+.headtoolmid{
+	float:left;
+	height:60px;
+	width:145px;
+	margin:10px 0 10px 0;
+	
+}
+
+.name{
+	height:20px;
+	width:140px
+}
+.name span{
+	float:left;
+	font:bold 14px "microsoft yahei" ;
+	line-height:20px;
+	color:#FFFFFF
+}
+.headstatus{
+	float:left;
+	height:20px;
+	width:35px;
+	background-image: url(../img/status.png);
+	border:1px #169ADA solid;
+}
+
+.headlevel{
+	float:left;
+	height:15px;
+	width:25px;
+	margin-top:5px;
+	background-image: url(../img/level.png);
+	border:1px #169ADA solid;
+}
+
+.headvip{
+	float:left;
+	height:15px;
+	width:25px;
+	margin-top:5px;
+	background-image: url(../img/vip.png);
+	border:1px #169ADA solid;
+}
+
+.headsign{
+	margin-top:2px;
+	height:20px;
+	width:140px;
+	font:12px "microsoft yahei" ;
+	line-height:20px;
+	color:#FFFFFF;
+	border:1px #169ADA solid;
+}
+
+.headsmtool{
+	height:20px;
+	width:145px;
+	margin-top:5px;
+}
+.headtoolapp{
+	float:left;
+	border:1px #169ADA solid;
+	margin-right:3px;
+	height:18px;
+	width:18px;
+}
+.headright{
+	float:left;
+	height:60px;
+	width:55px;
+	margin:10px 5px 10px 0;	
+}
+.weather{
+	height:40px;
+	width:53px;
+	background-image: url(../img/weather.png);
+}
+.cloth{
+	height:18px;
+	width:18px;
+	float: left;
+	margin:9px 0 0 6px;
+	border:1px #169ADA solid;
+	background-image: url(../img/cloth.png);
+}
+.messagebox{
+	height:18px;
+	width:18px;
+	float: left;
+	margin:9px 0 0 5px;
+	border:1px #169ADA solid;
+	background-image: url(../img/messagebox.png);
+}
+.headstatus:hover,.headlevel:hover,.headvip:hover,.headsign:hover,.headtoolapp:hover,.cloth:hover,.messagebox:hover{
+	border:1px #0D6189 solid;
+}
+
+.search input{
+	width:260px;
+	height:100%;
+	background-image:  url(../img/search.png);
+	color: white;
+	padding:0 10px;
+	font-size: 12px;
+}
+
+/*中间*/
+.nav{
+	height:38px;
+	border-bottom:1px #D9DFE2 solid;
+}
+.navicon{
+	float:left;
+	background-color: #C2CFD6;
+	height:38px;
+}
+.content{
+	height:311px;
+	position: relative;
+	overflow: hidden;
+}
+.tool{
+	height:59px;
+	background-color: #CBE9F7;
+	border-top:1px #8BCDED solid;
+}
+.contentmaincontainer{
+	position: absolute;
+	top:0;
+	left:0;
+	height:px;
+	width:1680px ;
+	position: relative;
+}
+.contentmain{
+	float:left;
+	height:311px;
+	width:280px ;
+}
