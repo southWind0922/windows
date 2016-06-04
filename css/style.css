@@ -310,13 +310,13 @@ body{
 	height:100%;
 	width:100%;
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 650px) {
 	.calc{
 	top:5%;
 	left:30%;
 	}
 	.winmine{
 	top:15%;
-	left:100px;
+	left:15%;
     }
 }
