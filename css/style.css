@@ -108,6 +108,7 @@ body{
 	background-image: url(../img/background.jpg);
 	background-size: 100% 100%;
 	text-align: center;
+	
 }
 .container img{
 	height:238px;
@@ -267,5 +268,50 @@ body{
 .xiami >img{
 	position: absolute;
 	height:97%;
+	width:100%;
+}
+.calc{
+	display:none ;
+	position: absolute;
+	top:5%;
+	left:40%;
+	width:259px;
+	height:403px;
+	box-shadow:0 0 3px #101010;
+}
+.calc iframe{
+	height:100%;
+	width:100%;
+	
+}
+.calc >img{
+	position: absolute;
+	height:100%;
+	width:100%;
+}
+@media only screen and (max-width: 450px) {
+	.calc{
+	top:5%;
+	left:10%;
+}
+}
+
+.winmine{
+	display:none ;
+	position: absolute;
+	top:15%;
+	left:40%;
+	width:270px;
+	height:300px;
+	box-shadow:0 0 3px #101010;
+}
+.winmine iframe{
+	height:100%;
+	width:100%;
+	
+}
+.winmine >img{
+	position: absolute;
+	height:100%;
 	width:100%;
 }
