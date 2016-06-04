@@ -127,6 +127,24 @@ a{text-decoration: none;}
     }
     .leftBar{margin-right:5%;}
 }
+
+@media screen and (max-width: 450px) {
+    .leftbar, .search, .mainNav, .playInfo, .pinBtn, .track{
+        display: none;   
+    }
+    .col{width: 15%}
+    .vol{right:inherit;left:278px}
+    .volm{right:inherit;left:0;}
+}
+
+@media only screen and (min-width: 450px) and (max-width: 768px) {
+	 .leftbar, .search, .mainNav, .playInfo, .pinBtn, .track{
+        display: none;   
+    }
+    .vol{right:inherit;left:478px}
+    .volm{right:inherit;left:0;}
+}
+
 /*fadein动画*/
 @-webkit-keyframes fadeIn/* Safari 和 Chrome */
 {

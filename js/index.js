@@ -96,8 +96,8 @@ $(function() {
 			$("#Imgxiami").css({
 				'display': 'none'
 			});
-			var oIframe = document.getElementById('xiamiIframe').contentWindow;  
-            var oAudio = oIframe.document.getElementById('audio');  
+			var oXiamiIframe = document.getElementById('xiamiIframe').contentWindow;  
+            var oAudio = oXiamiIframe.document.getElementById('audio');
             oAudio.pause();
 		})
 		$(".xiami .minapp").click(function() {
@@ -126,6 +126,7 @@ $(function() {
 			$("#Imgcalc").css({
 				'display': 'none'
 			});
+			$(window.frames["calcIframe"].document).find("#clear").click();
 		})
 		$(".calc .minapp").click(function() {
 			$('.calc').css({
@@ -153,6 +154,7 @@ $(function() {
 			$("#Imgwinmine").css({
 				'display': 'none'
 			});
+			$(window.frames["winmineIframe"].document).find("#reset").click();
 		})
 		$(".winmine .minapp").click(function() {
 			$('.winmine').css({
