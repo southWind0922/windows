@@ -289,16 +289,7 @@ body{
 	height:100%;
 	width:100%;
 }
-@media only screen and (max-width: 450px) {
-	.calc{
-	top:5%;
-	left:12%;
-	}
-	.winmine{
-	top:5%;
-	left:12%;
-    }
-}
+
 
 .winmine{
 	display:none ;
@@ -318,4 +309,14 @@ body{
 	position: absolute;
 	height:100%;
 	width:100%;
+}
+@media only screen and (max-width: 450px) {
+	.calc{
+	top:5%;
+	left:30%;
+	}
+	.winmine{
+	top:15%;
+	left:30%;
+    }
 }
