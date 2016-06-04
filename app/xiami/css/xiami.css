@@ -129,7 +129,7 @@ a{text-decoration: none;}
 }
 
 @media (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3) {
-    .leftbar, .search, .mainNav, .playInfo, .pinBtn, .track{
+    .leftbar, .search, .mainNav, .playInfo, .pinBtn, .track, .mainOuther {
         display: none;   
     }
     .col{width: 15%}
