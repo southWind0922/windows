@@ -96,10 +96,66 @@ $(function() {
 			$("#Imgxiami").css({
 				'display': 'none'
 			});
-			document.getElementById("audio").paused();
+			var oIframe = document.getElementById('xiamiIframe').contentWindow;  
+            var oAudio = oIframe.document.getElementById('audio');  
+            oAudio.pause();
 		})
 		$(".xiami .minapp").click(function() {
 			$('.xiami').css({
+				'display': 'none'
+			});
+		})
+	}
+	function calc() {
+		$("#calc").click(function() {
+			$(".calc").css({
+				'display': 'block'
+			});
+			$("#Imgcalc").css({
+				'display': 'block'
+			});
+		})
+		
+		$("#Imgcalc").click(function() {
+			$('.calc').toggle();
+		})
+		$(".calc .closeapp").click(function() {
+			$('.calc').css({
+				'display': 'none'
+			});
+			$("#Imgcalc").css({
+				'display': 'none'
+			});
+		})
+		$(".calc .minapp").click(function() {
+			$('.calc').css({
+				'display': 'none'
+			});
+		})
+	}
+	function winmine() {
+		$("#winmine").click(function() {
+			$(".winmine").css({
+				'display': 'block'
+			});
+			$("#Imgwinmine").css({
+				'display': 'block'
+			});
+		})
+		
+		$("#Imgwinmine").click(function() {
+			$('.winmine').toggle();
+		})
+		$(".winmine .closeapp").click(function() {
+			$('.winmine').css({
+				'display': 'none'
+			});
+			$("#Imgwinmine").css({
+				'display': 'none'
+			});
+		})
+		$(".winmine .minapp").click(function() {
+			$('.winmine').css({
 				'display': 'none'
 			});
 		})
@@ -108,4 +164,6 @@ $(function() {
 	qq();
 	taobao();
 	xiami() ;
+	calc();
+	winmine();
 })

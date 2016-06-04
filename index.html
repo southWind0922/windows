@@ -29,6 +29,12 @@
 			<div id="Imgxiami">
 				<img src="img/xiami.png" height="36px" width="36px"/>
 			</div>
+			<div id="Imgcalc">
+				<img src="img/calc.png" height="36px" width="36px"/>
+			</div>
+			<div id="Imgwinmine">
+				<img src="img/winmine.png" height="36px" width="36px"/>
+			</div>
 		</div>
 		<div class="appcontainer">
 			<div class="app" id="baidu">
@@ -49,11 +55,11 @@
 			   <img src="img/xiami.png"/>
 			   <p>虾米音乐</p>
 		    </div>
-		    <div class="app">
+		    <div class="app" id='calc'>
 			   <img src="img/calc.png"/>
 			   <p>计算器</p>
 		    </div>
-		    <div class="app">
+		    <div class="app" id='winmine'>
 			   <img src="img/winmine.png"/>
 			   <p>扫雷</p>
 		    </div>
@@ -82,7 +88,21 @@
 				<img class='closeapp' src="img/close.png"/>
 				<img class='minapp' src="img/min.png"/>
 			</div>
-			<iframe src="app/xiami/xiami.html"></iframe>
+			<iframe src="app/xiami/xiami.html" id='xiamiIframe'></iframe>
+		</div>
+		<div class="calc">
+			<div class="appheader">
+				<img class='closeapp' src="img/close.png"/>
+				<img class='minapp' src="img/min.png"/>
+			</div>
+			<iframe src="app/calculator/index.html"></iframe>
+		</div>
+		<div class="winmine">
+			<div class="appheader">
+				<img class='closeapp' src="img/close.png"/>
+				<img class='minapp' src="img/min.png"/>
+			</div>
+			<iframe src="app/winmine/index.html"></iframe>
 		</div>
 	</body>
 

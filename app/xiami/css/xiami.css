@@ -9,7 +9,7 @@ a{text-decoration: none;}
 .clear:after{content: '.';clear: both;display: block;height: 0;visibility: hidden;font-size: 0;line-height: 0;}
 /*主体结构*/
 .blur{width: 100%;height: 100%;position: fixed;overflow: hidden;top: 0;bottom: 0;left: 0;right: 0;z-index: 0;min-width:1085px;}
-.playerMain{position: relative;width:100%;height:100%;min-height: 500px;min-width: 930px;transition:all 0.2s;min-width:1085px;}
+.playerMain{position: relative;width:100%;height:100%;transition:all 0.2s;}
 .top{position: absolute;top: 0;width: 100%;height: 56px;background: url("../css/images/T10MNqFzVXXXcu5FDa-20-20.png") repeat 0 0;}
 .middle{position: absolute;top: 56px;bottom: 80px;background-color: #fff;width: 100%;}
 .mainWrap{position: relative;height: 100%;}
@@ -52,7 +52,7 @@ a{text-decoration: none;}
 .playBd{width:816px;position: absolute;top: 46px;bottom: 60px;}
 .scrollView{height: 100%;width: 816px;position: relative;outline: 0;-webkit-user-drag:none;}
 .songUL{width: 816px;height: 100%;}
-.songList{width: 816px;color: #333;border-bottom: 1px solid #ebebeb;position: relative;}
+.songList{width: 810px;color: #333;border-bottom: 1px solid #ebebeb;position: relative;}
 .check{position: absolute;height: 16px;width: 16px;left: 0;padding: 12px 5px 12px 10px;}
 .checkIn,.checkAll{width: 16px;height: 16px;cursor: pointer;background: url("../css/images/T1bMh.FxNXXXb_r3IF-72-730.png") -1px -710px;-webkit-appearance:none;}
 .start{line-height: 41px; text-align: center; position: absolute;width: 36px;height: 41px;left: 31px;top: 0;text-align: center;}
@@ -120,7 +120,7 @@ a{text-decoration: none;}
 .manyou{width: 749px;height: 41px;padding: 0 36px 0 31px;position: relative;}
 .songLMain{width: 100%;height: 40px;line-height: 41px;}
 .manyouA{position: absolute;display: block;width: 88px;height: 30px;padding-left: 30px;left: 72px;top: 0;font-size: 12px;line-height: 30px;color: #fff;background: url("../css/images/manyou.png");}
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1270px) {
     .mainOuther {
         display: none;
         
