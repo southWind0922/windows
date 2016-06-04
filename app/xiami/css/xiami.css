@@ -137,7 +137,7 @@ a{text-decoration: none;}
     .volm{right:inherit;left:0;}
 }
 
-@media only screen and (min-width: 450px) and (max-width: 768px) {
+@media (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3) {
 	 .leftbar, .search, .mainNav, .playInfo, .pinBtn, .track{
         display: none;   
     }
