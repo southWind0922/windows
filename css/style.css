@@ -255,11 +255,10 @@ body{
 .xiami{
 	display:none ;
 	position: absolute;
-	top:5%;
+	top:2.5%;
 	left:2.5%;
-	width:95%;
-	height:80%;
-	overflow-x:hidden;
+	width:97%;
+	height:85%;
 }
 .xiami iframe{
 	height:100%;
