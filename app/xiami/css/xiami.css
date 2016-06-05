@@ -147,15 +147,7 @@ a{text-decoration: none;}
 }
 
 
-@media (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3) {
-     .leftbar, .search, .mainNav, .playInfo, .pinBtn, .track, .mainOuther {
-        display: none;   
-    }
-	.blur ,.playerMain ,.top ,.middle ,.bottom ,{width:340px;}
-	.playerWrap{padding-right:100px;}
-    .vol{right:inherit;left:400px}
-    .volm{right:inherit;left:0px;}
-}
+
 
 
 
