@@ -82,7 +82,7 @@ a{text-decoration: none;}
 .itMore{width: 73px;height: 30px;background-image:url("../css/images/T1Z8x_FEBXXXcvwvwe-420-106.png");text-indent: 38px;background-position: -348px 0;}
 .itMore:hover{background-position: -348px -30px;}
 /*底部按键*/
-.playerWrap{position: relative;height: 100%;;padding-right: 330px;}
+.playerWrap{position: relative;height: 100%;}
 .playerCon{position: absolute;top: 0;left: 0;width: 278px;height: 100%;}
 .pbtn{display: block;width: 30px;height: 30px;position: absolute;background-image: url("../css/images/T1bMh.FxNXXXb_r3IF-72-730.png");}
 .prevBtn{top: 25px;left: 38px;background-position: 0 -90px;}
@@ -126,11 +126,10 @@ a{text-decoration: none;}
         display: none;   
     }
 	.blur ,.playerMain ,.top ,.middle ,.bottom {width:340px;}
-	.playerWrap{padding-right:100px;}
     .vol{right:inherit;left:200px}
     .volm{right:inherit;left:0px;}
 	.col{width:27%}
-	.playerMain{height:500px;}
+	.playerMain{height:100%;}
 	
 
 @media screen and (min-width: 1100px){
@@ -140,11 +139,11 @@ a{text-decoration: none;}
 	.mainBody ,.playHd ,.phInner ,.playBd ,.scrollView ,.songUL ,.songList ,.songBd ,.playFt ,.songLMain {width:500px;}
 	.blur ,.playerMain ,.top ,.middle ,.bottom {width:1100px;}
 	.playerWrap{padding-right:330px;}
-    .vol{right:0;left:inherit;height:270px;}
+    .vol{right:0;left:inherit;width:270px;}
     .volm{right:40px;left:inherit;}
 	.col{width:33%}
     .playerMain{height:100%;}
-	
+	.playerWrap{padding-left: 270px;padding-right: 330px;}
 }
 
 
