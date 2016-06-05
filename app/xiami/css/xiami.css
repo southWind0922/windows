@@ -120,23 +120,7 @@ a{text-decoration: none;}
 .manyou{width: 749px;height: 41px;padding: 0 36px 0 31px;position: relative;}
 .songLMain{width: 500px;height: 40px;line-height: 41px;}
 .manyouA{position: absolute;display: block;width: 88px;height: 30px;padding-left: 30px;left: 72px;top: 0;font-size: 12px;line-height: 30px;color: #fff;background: url("../css/images/manyou.png");}
-@media screen and (max-width: 1270px) {
-    .mainOuther {
-        display: none;
-        
-    }
-    .leftBar{margin-right:5%;}
-}
-@media screen and (max-width: 650px){
-    .leftbar, .search, .mainNav, .playInfo, .pinBtn, .track, .mainOuther {
-        display: none;   
-    }
-	.blur ,.playerMain ,.top ,.middle ,.bottom ,{width:320px;}
-	.playerWrap{padding-right:100px;}
-    .vol{right:inherit;left:400px}
-    .volm{right:inherit;left:0px;}
-	
-}
+
 @media (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3) {
      .leftbar, .search, .mainNav, .playInfo, .pinBtn, .track, .mainOuther {
         display: none;   
