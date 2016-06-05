@@ -202,6 +202,7 @@ body{
 	margin:auto;
     position: absolute;
     top: -10%; left: 0; bottom: 0; right: 0;
+	overflow:hidden;
 }
 .baidu iframe{
 	height:100%;
@@ -268,7 +269,7 @@ body{
 	margin: auto;
     position: absolute;
     top: -5%; left: 0; bottom: 0; right: 0;
-	width:259px;
+	width:261px;
 	height:403px;
 	box-shadow:0 0 3px #101010;
 }

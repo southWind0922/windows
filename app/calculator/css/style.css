@@ -76,11 +76,11 @@ html{
 	overflow-y: hidden;
 }
 .bodycontainer{
-	width:239px;
+	width:261px;
 }
 .view{
 	height:50px;
-	width:100%;
+	width:239px;
 	padding:10px;
 	background-color:#202020 ;
 	border:1px #202020 solid ;
