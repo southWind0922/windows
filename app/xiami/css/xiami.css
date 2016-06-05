@@ -130,6 +130,7 @@ a{text-decoration: none;}
     .vol{right:inherit;left:200px}
     .volm{right:inherit;left:0px;}
 	.col{width:27%}
+	.playerMain{height:500px;}
 	
 
 @media screen and (min-width: 1100px){
@@ -141,6 +142,8 @@ a{text-decoration: none;}
 	.playerWrap{padding-right:330px;}
     .vol{right:0;left:inherit;height:270px;}
     .volm{right:40px;left:inherit;}
+	.col{width:33%}
+    .playerMain{height:100%;}
 	
 }
 
