@@ -310,7 +310,7 @@ body{
 	height:100%;
 	width:100%;
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 570px) {
 	.calc{
 	top:15%;
 	left:15%;
@@ -319,4 +319,21 @@ body{
 	top:15%;
 	left:18%;
     }
+	.xiami{
+	left:10%;	
+    width:450px;
+	}
+}
+@media (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3) {
+	.calc{
+	top:15%;
+	left:15%;
+	}
+	.winmine{
+	top:15%;
+	left:18%;
+    }
+	.xiami{
+    width:450px;
+	}
 }

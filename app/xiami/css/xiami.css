@@ -12,7 +12,7 @@ a{text-decoration: none;}
 .playerMain{position: relative;width:1100px;height:100%;transition:all 0.2s;}
 .top{position: absolute;top: 0;width: 1100px;height: 56px;background: url("../css/images/T10MNqFzVXXXcu5FDa-20-20.png") repeat 0 0;}
 .middle{position: absolute;top: 56px;bottom: 80px;background-color: #fff;width: 1100px;}
-.mainWrap{position: relative;height: 100%;}
+.mainWrap{position: relative;height: 100%;overflow:hidden}
 .bottom{position: absolute;left: 0;bottom: 0;width: 1100px;height: 80px;background:url("../css/images/T10MNqFzVXXXcu5FDa-20-20.png") repeat;}
 .bottomcontainer{margin:0 auto;}
 /*头部*/
@@ -127,23 +127,27 @@ a{text-decoration: none;}
     }
     .leftBar{margin-right:5%;}
 }
-
+@media screen and (max-width: 650px){
+    .leftbar, .search, .mainNav, .playInfo, .pinBtn, .track, .mainOuther {
+        display: none;   
+    }
+	.blur ,.playerMain ,.top ,.middle ,.bottom ,{width:480px;}
+	.playerWrap{padding-right:100px;}
+    .vol{right:inherit;left:400px}
+    .volm{right:inherit;left:0px;}
+	
+}
 @media (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3) {
     .leftbar, .search, .mainNav, .playInfo, .pinBtn, .track, .mainOuther {
         display: none;   
     }
-    .col{width: 15%}
-    .vol{right:inherit;left:278px}
-    .volm{right:inherit;left:0;}
+	.blur ,.playerMain ,.top ,.middle ,.bottom ,{width:480px;}
+	.playerWrap{padding-right:100px;padding-left:100px;}
+    .vol{right:inherit;left:0}
+    .volm{right:inherit;left:0px;}
 }
 
-@media only screen and (min-width: 450px) and (max-width: 768px) {
-	 .leftbar, .search, .mainNav, .playInfo, .pinBtn, .track{
-        display: none;   
-    }
-    .vol{right:inherit;left:478px}
-    .volm{right:inherit;left:0;}
-}
+
 
 /*fadein动画*/
 @-webkit-keyframes fadeIn/* Safari 和 Chrome */
