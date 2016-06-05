@@ -321,7 +321,7 @@ body{
     }
 	.xiami{
 	left:5%;	
-    width:320px;
+    width:340px;
 	}
 }
 @media (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3) {
@@ -335,6 +335,6 @@ body{
     }
 	.xiami{
 	left:5%;	
-    width:320px;
+    width:340px;
 	}
 }
