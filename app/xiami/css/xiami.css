@@ -127,7 +127,7 @@ a{text-decoration: none;}
     }
     .leftBar{margin-right:5%;}
 }
-@media screen and (max-width: 550px){
+@media screen and (max-width: 650px){
     .leftbar, .search, .mainNav, .playInfo, .pinBtn, .track, .mainOuther {
         display: none;   
     }
