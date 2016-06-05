@@ -131,7 +131,7 @@ a{text-decoration: none;}
     .leftbar, .search, .mainNav, .playInfo, .pinBtn, .track, .mainOuther {
         display: none;   
     }
-	.blur ,.playerMain ,.top ,.middle ,.bottom ,{width:320px;}
+	.blur ,.playerMain ,.top ,.middle ,.bottom {width:320px;}
 	.playerWrap{padding-right:100px;}
     .vol{right:inherit;left:400px}
     .volm{right:inherit;left:0px;}
@@ -141,7 +141,7 @@ a{text-decoration: none;}
     .leftbar, .search, .mainNav, .playInfo, .pinBtn, .track, .mainOuther {
         display: block;   
     }
-	.blur ,.playerMain ,.top ,.middle ,.bottom ,{width:1100px;}
+	.blur ,.playerMain ,.top ,.middle ,.bottom {width:1100px;}
 	.playerWrap{padding-right:330px;}
     .vol{right:0;left:inherit}
     .volm{right:40px;left:inherit;}
