@@ -127,7 +127,7 @@ a{text-decoration: none;}
     }
     .leftBar{margin-right:5%;}
 }
-@media screen and (max-width: 650px){
+@media screen and (max-width: 550px){
     .leftbar, .search, .mainNav, .playInfo, .pinBtn, .track, .mainOuther {
         display: none;   
     }
@@ -138,12 +138,12 @@ a{text-decoration: none;}
 	
 }
 @media (min-device-width : 414px) and (max-device-width : 736px) and (-webkit-min-device-pixel-ratio : 3) {
-    .leftbar, .search, .mainNav, .playInfo, .pinBtn, .track, .mainOuther {
+     .leftbar, .search, .mainNav, .playInfo, .pinBtn, .track, .mainOuther {
         display: none;   
     }
 	.blur ,.playerMain ,.top ,.middle ,.bottom ,{width:480px;}
-	.playerWrap{padding-right:100px;padding-left:100px;}
-    .vol{right:inherit;left:0}
+	.playerWrap{padding-right:100px;}
+    .vol{right:inherit;left:400px}
     .volm{right:inherit;left:0px;}
 }
 
