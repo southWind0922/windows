@@ -131,7 +131,7 @@ a{text-decoration: none;}
     .leftbar, .search, .mainNav, .playInfo, .pinBtn, .track, .mainOuther {
         display: none;   
     }
-	.blur ,.playerMain ,.top ,.middle ,.bottom ,{width:480px;}
+	.blur ,.playerMain ,.top ,.middle ,.bottom ,{width:320px;}
 	.playerWrap{padding-right:100px;}
     .vol{right:inherit;left:400px}
     .volm{right:inherit;left:0px;}
